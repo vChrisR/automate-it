@@ -1,0 +1,8 @@
+---
+title: 'Competence Ladder'
+date: Fri, 18 Apr 2014 12:06:38 +0000
+draft: false
+tags: ['Automate-it Today', 'Competence', 'Infra Automation', 'vChrisR', 'vDennisHD', 'Virtualized']
+---
+
+To start our website we decided to start with a non-technical blog in contrary with the purpose of this website. We started this website in April 2014, this is our first (blog) website and during the making of this website and writing several articles we found out we are at the unconscious incompetent stage. So what is the unconscious incompetent stage? Before you tried something new you did not know you missed out on knowledge and skills. At least now we know we still have a lot to learn and what to work on. This awareness will putt us in the second stage, the conscious incompetence stage, we recognized the skillset we need to develop and decided to start this blog and learn. Hopefully with your help we will continue into the next stages. [![ladder](http://automate-it.today/wp-content/uploads/2014/04/ladder-300x270.png)](http://automate-it.today/wp-content/uploads/2014/04/ladder.png) This site will focus on automation in IT, specifically in virtualized environments, because it’s automation what makes our life easier and makes it possible to spent our time on more important things in life. We can use the Conscious Competence Ladder here as well. Our goal is to make you aware of the plus side of automation and automating your task. Maybe you don’t know the big plus now and you are actually at the unconscious incompetent stage, and this is a good thing because you can start climbing the ladder. Off course, with our help.   Read more about the “Conscious Competence Ladder” [here](http://ideacellar.wordpress.com/tag/lifecoach/)

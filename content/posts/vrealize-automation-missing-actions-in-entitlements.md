@@ -1,0 +1,8 @@
+---
+title: 'vRealize Automation: Missing Actions in Entitlements'
+date: Wed, 09 Mar 2016 11:00:06 +0000
+draft: false
+tags: ['actions', 'Infra Automation', 'vRA', 'vRealize Automation']
+---
+
+After installing a new vRealize Automation 6.2.2 distributed environment a customer tried to add actions to an entitlement but default actions like Reconfigure were not visible. Also this Actions were not visible when we looked at \\Administration\\Catalog Management\\Actions. The source of these actions are iaas-service so because it’s a new installation we checked if all the services were registered on the appliance via port 5480. [![AutomateIt_Appliance](http://automate-it.today/wp-content/uploads/2016/03/AutomateIt_Appliance.png)](http://automate-it.today/wp-content/uploads/2016/03/AutomateIt_Appliance.png) So the registration of the IaaS-Service was successful in this case, so it must be a registration of component, after investigating the install log we didn’t find any errors that point in a particular direction. But, there is a easy fix: 1, Go to the IaaS Server Model Manager Data machine. 2, Browse to the café folder in Model Manager Data from the command line: C:\\Program Files (x86)\\VMware\\vCAC\\Server\\Model Manager Data\\Cafe\\ 3, Run the command “Vcac-Config.exe registercatalogtypes –v” When you now look at \\Administration\\Catalog Management\\Actions you will see the actions appear, you don’t even have to restart servers or services ;) [![AutomateIt_Actions](http://automate-it.today/wp-content/uploads/2016/03/AutomateIt_Actions.png)](http://automate-it.today/wp-content/uploads/2016/03/AutomateIt_Actions.png)

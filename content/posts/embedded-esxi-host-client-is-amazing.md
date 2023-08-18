@@ -1,0 +1,8 @@
+---
+title: 'Embedded ESXi Host Client is amazing'
+date: Tue, 22 Dec 2015 10:38:01 +0000
+draft: false
+tags: ['ESXi', 'ESXi Embedded Host Client', 'Host Client', 'HTML5', 'vSphere']
+---
+
+Just a quick post to contrast my sceptical post about the new vRO from friday :).  You've probably heard about this already but Etienne Le Sueur and George Estebe from VMware created an embedded host client for ESXi. The client is available as a [fling](https://labs.vmware.com/flings/esxi-embedded-host-client "host client fling") and it is amazing. Oh and there is a new version available since 20th of december. This one can also update the ESXi host the client is running on. [![screenshothostclient](http://www.automate-it.today/wp-content/uploads/2015/12/Screenshot-from-2015-12-22-113103-300x158.png)](http://www.automate-it.today/wp-content/uploads/2015/12/Screenshot-from-2015-12-22-113103.png) Installation is really simple. The client is downloadable as a vib and you can install it directly on an ESXi host. Instructions [here](https://labs.vmware.com/flings/esxi-embedded-host-client#instructions "host client instructions"). The client is fully HTML5 so no flash or other client side stuff needed. And the best thing is: it's really fast and works very well. So if you haven't  tried it yet you really should! I'm glad to see that VMware is still able to produce high quality products. Hopefully this trend will cont..... no I won't rant this time., let's keep it peaceful this time of the year. Happy holidays!

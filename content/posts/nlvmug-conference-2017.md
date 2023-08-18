@@ -1,0 +1,8 @@
+---
+title: 'NLVMUG UserCon 2017'
+date: Mon, 13 Mar 2017 10:00:37 +0000
+draft: false
+tags: ['2017', 'Automation', 'NLVMUG', 'UserCon', 'VMUG']
+---
+
+On Thursday March 16th the annual [NLVMUG UserCon](https://www.nlvmug.com/usercon-2017/) will take place. The venue will be the same as the last few years: 1931 Congrescentrum Brabanthallen. ![](https://www.nlvmug.com/wp-content/uploads/2016/11/nlvmug_logo-white-1.png) All authors of this site will be participating in the conference: [Dennis](https://www.nlvmug.com/over-ons/) is the dutch VMUG leader so in that capacity he'll have the honor of opening the conference. Olivier and I will be hosting a Group discussion titled "Automation in real life". And I'll also be presenting during a break-out session, together with my colleague Ruurd Keizer (author of [vroapi.net](http://www.vroapi.net/)). The title for this years presentation is "The why, what and how of automation". Contrary to previous years ([here](http://www.automate-it.today/datacenter-performance-shoebox-vmug-presentation/), [here](http://www.automate-it.today/what-does-this-button-do/) and [here](http://www.automate-it.today/nlvmug-usercon-2016-autoscale-it-today/)) I won't be bringing any physical DIYed gadgets onto the stage :(. Not because I didn't want to but because I'm moving houses and all my stuff is in storage at the moment. would be mission impossible to get all the way to the back of the darn storage box to retrieve my soldering iron for example. If you've ever put your whole life in a storage box you know what I'm talking about.... But of course there will still be demos! and I still did some DIYing. It's just all virtual this year :) See you all this Thursday!

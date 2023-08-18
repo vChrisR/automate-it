@@ -1,0 +1,12 @@
+baseURL = 'http://automate-it.today/'
+languageCode = 'en-us'
+title = 'automate-IT'
+theme = 'hugo-kiera'
+
+[author]
+    name = "Christiaan"           #Author name
+    github = "vChrisR"         #Github username
+    linkedin = "christiaanroeleveld"       #LinkedIn username
+
+[params]
+    tagline = "Automate everything!"
