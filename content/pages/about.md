@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2023-08-18T09:51:46+02:00
-draft: true
+draft: false
 menu: "main"
 meta: false
 ---
