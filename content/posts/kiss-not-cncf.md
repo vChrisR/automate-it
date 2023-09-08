@@ -2,8 +2,8 @@
 title = "Kiss! instead of the next fancy CNCF project"
 date = 2023-08-31T19:34:18+02:00
 images = []
-tags = [aaargcd,kubernetes]
-categories = [kubernetes]
+tags = ['aaargcd', 'kubernetes']
+categories = ['kubernetes']
 draft = false
 +++
 If you're using kubernetes on a daily basis or even if you're following the CNCF stuff from a distance you're probably aware of the vast amount of projects that is part of the CNCF. There seems to be a project for anything you can think of.

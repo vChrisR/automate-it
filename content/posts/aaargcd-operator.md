@@ -2,8 +2,8 @@
 title = "Aaargcd Operator"
 date = 2023-09-07T13:41:10+02:00
 images = []
-tags = []
-categories = []
+tags = ['aaargcd', 'kubernetes']
+categories = ['kubernetes']
 draft = false
 +++
 *Disclaimer: Don't run this operator in a production cluster! Ever!*
