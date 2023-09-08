@@ -2,17 +2,17 @@
 title = "Kiss! instead of the next fancy CNCF project"
 date = 2023-08-31T19:34:18+02:00
 images = []
-tags = []
-categories = []
+tags = [aaargcd,kubernetes]
+categories = [kubernetes]
 draft = false
 +++
 If you're using kubernetes on a daily basis or even if you're following the CNCF stuff from a distance you're probably aware of the vast amount of projects that is part of the CNCF. There seems to be a project for anything you can think of.
 On one hand that's a good thing. It means there is choice and competition. 
-On the other hand, the choice might not be so great since a lot of the projects are developed by companies that had a very specific need and it is not applicable to most other companies. Also the fact that there is competition means that inevitebly a lot of project are going to disapear rather sooner than later. What if you just decided that project was a good fit for you? And you did a lot of engineering around that project...?
+On the other hand, the choice might not be so great since a lot of the projects are developed by companies that had a very specific need and it is not applicable to most other companies. Also the fact that there is competition means that inevitably a lot of project are going to disappear rather sooner than later. What if you just decided that project was a good fit for you? And you did a lot of engineering around that project...?
 
-Another aspect of competition is that projects try to stay relevant. How do they usually do that? By adding features so more "customers" will start using their product. If you started using the product early on because it did that one thing you neded very good you're now forced to either manage a product that is growing in complexity or look for something else. Both of which aren't very good options since they both have the tendency to sink a lot of your time. And since this already solved a problem you're now spending time on something that was already solved instead of spending it on new developments or wathcing netflix.
+Another aspect of competition is that projects try to stay relevant. How do they usually do that? By adding features so more "customers" will start using their product. If you started using the product early on because it did that one thing you needed very good you're now forced to either manage a product that is growing in complexity or look for something else. Both of which aren't very good options since they both have the tendency to sink a lot of your time. And since this already solved a problem you're now spending time on something that was already solved instead of spending it on new developments or watching Netflix.
 
-But if you wantend to accomplish something simple in the first place wouldn't you have been better off using the tools that kubernetes natively provides and one or a few lines of bash? Let's take Continuous Deployment as an example. You could not think about it and just throw ArgoCD on your cluster. It works, looks kinda cool, will likely be around for a while and there is many people using it. So don't get me wrong, I have nothing against ArgoCD. But if all you want is just apply some yaml in a few namespaces and keep it in synch with a git repo you might be better off using a cronjob and one line of bash. 
+But if you wanted to accomplish something simple in the first place wouldn't you have been better off using the tools that kubernetes natively provides and one or a few lines of bash? Let's take Continuous Deployment as an example. You could not think about it and just throw ArgoCD on your cluster. It works, looks kinda cool, will likely be around for a while and there is many people using it. So don't get me wrong, I have nothing against ArgoCD. But if all you want is just apply some yaml in a few namespaces and keep it in synch with a git repo you might be better off using a cronjob and one line of bash. 
 
 I spent a few minutes today to try that out and here is the result:
 
@@ -70,6 +70,6 @@ As with any brand new cloud-native project this is only half baked. The only thi
 
 But all joking aside, this took me mere minutes to write (copy/paste I mean) and I wrote most of it on my phone. And depending on what you want this might get you 60% of the way there. Spent a bit more time on it and it might get you to 80% and you can usually just drop that final 20% so then you're done ;). And all that without having to rely on somebody elses project which in itself needs to be kept up to date, comes with yet another cli and another learning curve and another operator with its corresponding CRDs. In other words: Keep it stupid simple wherever you can. Don't just grab the next fancy CNCF project to fix a tiny problem.
 
-Speaking about operatorsi and cNCF: each CNCF project ssems to come with their own operator. Maybe AaargCD needs one too....  but that's a topic for another post :)
+Speaking about operators and CNCF: each CNCF project ssems to come with their own operator. Maybe AaargCD needs one too....  but that's a topic for another post :)
 
  
