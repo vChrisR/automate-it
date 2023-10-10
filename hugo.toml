@@ -2,6 +2,7 @@ baseURL = 'http://wwww.automate-it.today/'
 languageCode = 'en-us'
 title = 'automate-IT'
 theme = 'hugo-kiera'
+googleAnalytics = 'G-1SC1SGNDCS'
 
 [author]
     name = "Christiaan"           #Author name
