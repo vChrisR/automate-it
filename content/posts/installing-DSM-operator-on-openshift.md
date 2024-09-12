@@ -4,7 +4,7 @@ date = 2024-09-12T16:00:59+02:00
 images = []
 tags = []
 categories = []
-draft = true
+draft = false
 +++
 I recently had to deploy the VMware DSM Consumption operator on an openshift cluster. Reading the docs it seemed easy enough. Just install a helm chart and off we go.... of course it took a bit more than that so I decided to document it here in case I or anyone else would later need it.
 
