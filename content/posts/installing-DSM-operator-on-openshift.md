@@ -26,5 +26,5 @@ Rendering out the yamls is very similar to running helm install. Here is how you
 ## The openshift trick
 Openshift assigns a range of UIDs en GUIDs to each namespace (or should I say project?). However, the operator fires of a few jobs to configure its webhook which want to run as user 2000. Which is well outside the range of what openshift wnat to see. 
 
-So we need to tell openshift this is alright. We do that by running this command: ``oc adm policy add-scc-to-user privileged -z dsm-consumption-operator-controller-manager``. Make sure your context points to the dsm-consumption-operator-system namespace (pro tip: use [ns and ctx plugins](https://github.com/ahmetb/kubectx))
+So we need to tell openshift this is alright. We do that by running this command: ``oc adm policy add-scc-to-user privileged -z dsm-consumption-operator-controller-manager``. Make sure your context points to the dsm-consumption-operator-system namespace (pro tip: use [ns and ctx plugins](https://github.com/ahmetb/kubectx)). Since this permisison only seems to be used for the jobs that run right after installation I believe you can remove the permission after the 3 jobs are completed (``oc adm policy remove-scc-from-user privileged -z dsm-consumption-operator-controller-manager``)
 
